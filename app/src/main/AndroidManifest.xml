@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.gerardbradshaw.mater">
+    package="com.ppl6.recipengrocery">
 
     <!-- Permissions -->
     <uses-feature
@@ -11,7 +11,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".util.MaterApplication"
+        android:name="com.ppl6.recipengrocery.util.MaterApplication"
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
         android:icon="@mipmap/ic_launcher"
@@ -21,29 +21,29 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <receiver
-            android:name=".activities.main.AlarmReceiver"
+            android:name="com.ppl6.recipengrocery.activities.main.AlarmReceiver"
             android:enabled="true"
             android:exported="false" />
 
         <activity
-            android:name=".activities.settings.SettingsActivity"
+            android:name="com.ppl6.recipengrocery.activities.settings.SettingsActivity"
             android:label="@string/settings_activity_title"
-            android:parentActivityName=".activities.main.MainActivity">
+            android:parentActivityName="com.ppl6.recipengrocery.activities.main.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.gerardbradshaw.mater.activities.main.MainActivity" />
+                android:value="com.ppl6.recipengrocery.activities.main.MainActivity" />
         </activity> <!-- Shopping List Activity -->
         <activity
-            android:name=".activities.shoppinglist.ShoppingListActivity"
+            android:name="com.ppl6.recipengrocery.activities.shoppinglist.ShoppingListActivity"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- Add Recipe Activity -->
         <activity
-            android:name=".activities.addrecipe.AddRecipeActivity"
+            android:name="com.ppl6.recipengrocery.activities.addrecipe.AddRecipeActivity"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- Recipe Detail Activity -->
         <activity
-            android:name=".activities.recipedetail.RecipeDetailActivity"
+            android:name="com.ppl6.recipengrocery.activities.recipedetail.RecipeDetailActivity"
             android:theme="@style/AppTheme.NoActionBar" /> <!-- Main Activity -->
         <activity
-            android:name=".activities.main.MainActivity"
+            android:name="com.ppl6.recipengrocery.activities.main.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
