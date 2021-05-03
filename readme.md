@@ -1,6 +1,7 @@
-# Mater
-An Android app for saving recipes and making shopping lists. With Mater, you can:
-- Follow your recipes.
+# RecipenGrocery
+Aplikasi android untuk melihat resep,membuat dan mengedit resep serta menambahkan bahan-bahan untuk dimasukkan ke grocery untuk keperluan belanja sendiri atau memesan bahan lewat
+jasa pengiriman
+- I
 - Add new recipes.
 - View your shopping list created from your recipe ingredients.
 - Change units for your recipes at any time.
