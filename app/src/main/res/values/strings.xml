@@ -1,12 +1,12 @@
 <resources>
     <!-- Global -->
-    <string name="app_name">Mater</string>
-    <string name="global_header_steps">Steps</string>
-    <string name="global_header_ingredients">Ingredients</string>
+    <string name="app_name">Recipe N Grocery</string>
+    <string name="global_header_steps">Cara Masak</string>
+    <string name="global_header_ingredients">Bahan Baku</string>
     <string name="global_content_description_image">Recipe Image</string>
     <string name="global_menu_settings">Settings</string>
     <string name="global_menu_edit">Edit</string>
-    <string name="global_action_servings">Servings</string>
+    <string name="global_action_servings">Porsi</string>
 
     <!-- Main Activity -->
     <string name="nav_drawer_open">Open navigation drawer</string>
