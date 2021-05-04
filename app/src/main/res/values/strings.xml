@@ -55,5 +55,14 @@
     <string name="setting_notifications_breakfast">Breakfast reminder</string>
     <string name="setting_notifications_lunch">Lunch reminder</string>
     <string name="setting_notifications_dinner">Dinner reminder</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="belum_punya_akun">Belum Punya Akun?</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="ex_email">Ex Email</string>
+    <string name="konf_password">Konfirmasi Password</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
 
 </resources>
