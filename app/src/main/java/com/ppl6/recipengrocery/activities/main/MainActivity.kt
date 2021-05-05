@@ -68,10 +68,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
   private fun configureNavigationViews() {
     val toolbar = findViewById<Toolbar>(R.id.main_toolbar)
     val fab = findViewById<FloatingActionButton>(R.id.fab)
+    val fabshop = findViewById<FloatingActionButton>(R.id.fabshop)
     setSupportActionBar(toolbar)
 
     fab.setOnClickListener {
       val intent = Intent(this@MainActivity, AddRecipeActivity::class.java)
+      val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this@MainActivity)
+      startActivity(intent, options.toBundle())
+    }
+    fabshop.setOnClickListener {
+      val intent = Intent(this@MainActivity, ShoppingListActivity::class.java)
       val options = ActivityOptionsCompat.makeSceneTransitionAnimation(this@MainActivity)
       startActivity(intent, options.toBundle())
     }
